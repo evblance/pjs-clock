@@ -39,3 +39,26 @@
   transform: translate(-50%, -50%);
   width: 50px;
 }
+
+.clock-face {
+  position: absolute;
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+  box-shadow: inset 1px 1px 8px 4px rgba(0, 0, 0, 0.2);
+  height: 200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.dial {
+  font-family: 'Cute Font', sans-serif;
+  font-size: 1.7rem;
+  height: 190px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+}
