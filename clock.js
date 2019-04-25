@@ -53,6 +53,9 @@ const getSecondAngleFromDate = (dateObj) => {
   return dateObj.getSeconds() * 360 / 60;
 };
 
+/**
+ * Updates the transform of the clock hands to represent the current time.
+ */
 const updateTime = () => {
   const now = new Date();
   secondHand.style.transform = `translate(-50%, -50%) rotate(${getSecondAngleFromDate(now)}deg)`;
