@@ -1,0 +1,39 @@
+.clock {
+  background: #fff;
+  border: 10px solid black;
+  border-radius: 50%;
+  box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.2);
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
+.second-hand {
+  background: linear-gradient(90deg, transparent 0%, transparent 50%, rgb(172, 31, 31) 50%, rgb(172, 31, 31) 100%);
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+}
+  
+.minute-hand {
+  background: linear-gradient(90deg, transparent 0%, transparent 50%, #000 50%, #000 100%);
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+}
+
+.hour-hand {
+  background: linear-gradient(90deg, transparent 0%, transparent 50%, #000 50%, #000 100%);
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+}
